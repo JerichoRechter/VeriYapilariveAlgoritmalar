@@ -1,0 +1,12 @@
+SORU 1
+  [16,21,11,8,12,22] gibi bir array'iniz var ve onu Merge Sort'a göre sıralanışını adım adım görmek istorsanız göreceğiniz adımlar budur:
+  
+    16,21,11 - 8,12,22
+    16 /\ 21,11 - 8 /\ 12,22
+    16 /\ 21 /\ 11 - 8 /\ 12 /\ 22
+    16 /\ 11,21 - 8 /\ 12,22
+    11,16,21 - 8,12,22
+    8,11,12,16,21,22
+    
+SORU 2 
+  Bu array'in Merge Sort'a göre Big-O gösterimi O(nlogn)'dir.
